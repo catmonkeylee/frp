@@ -23,10 +23,10 @@ import (
 	docopt "github.com/docopt/docopt-go"
 	ini "github.com/vaughan0/go-ini"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/server"
-	"github.com/fatedier/frp/utils/log"
-	"github.com/fatedier/frp/utils/version"
+	"github.com/catmonkeylee/frp/models/config"
+	"github.com/catmonkeylee/frp/server"
+	"github.com/catmonkeylee/frp/utils/log"
+	"github.com/catmonkeylee/frp/utils/version"
 )
 
 var usage string = `frps is the server of frp

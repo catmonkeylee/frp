@@ -24,8 +24,8 @@ import (
 	"github.com/julienschmidt/httprouter"
 	ini "github.com/vaughan0/go-ini"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/utils/log"
+	"github.com/catmonkeylee/frp/models/config"
+	"github.com/catmonkeylee/frp/utils/log"
 )
 
 type GeneralResponse struct {

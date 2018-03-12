@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fatedier/frp/models/msg"
-	"github.com/fatedier/frp/utils/errors"
-	"github.com/fatedier/frp/utils/pool"
+	"github.com/catmonkeylee/frp/models/msg"
+	"github.com/catmonkeylee/frp/utils/errors"
+	"github.com/catmonkeylee/frp/utils/pool"
 )
 
 func NewUdpPacket(buf []byte, laddr, raddr *net.UDPAddr) *msg.UdpPacket {

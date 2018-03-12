@@ -19,8 +19,8 @@ import (
 	"io"
 	"net"
 
-	frpIo "github.com/fatedier/frp/utils/io"
-	frpNet "github.com/fatedier/frp/utils/net"
+	frpIo "github.com/catmonkeylee/frp/utils/io"
+	frpNet "github.com/catmonkeylee/frp/utils/net"
 )
 
 const PluginUnixDomainSocket = "unix_domain_socket"

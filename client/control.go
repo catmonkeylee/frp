@@ -21,14 +21,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/models/msg"
-	"github.com/fatedier/frp/utils/crypto"
-	"github.com/fatedier/frp/utils/log"
-	frpNet "github.com/fatedier/frp/utils/net"
-	"github.com/fatedier/frp/utils/shutdown"
-	"github.com/fatedier/frp/utils/util"
-	"github.com/fatedier/frp/utils/version"
+	"github.com/catmonkeylee/frp/models/config"
+	"github.com/catmonkeylee/frp/models/msg"
+	"github.com/catmonkeylee/frp/utils/crypto"
+	"github.com/catmonkeylee/frp/utils/log"
+	frpNet "github.com/catmonkeylee/frp/utils/net"
+	"github.com/catmonkeylee/frp/utils/shutdown"
+	"github.com/catmonkeylee/frp/utils/util"
+	"github.com/catmonkeylee/frp/utils/version"
 	"github.com/xtaci/smux"
 )
 

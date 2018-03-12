@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fatedier/frp/utils/log"
+	"github.com/catmonkeylee/frp/utils/log"
 
 	kcp "github.com/xtaci/kcp-go"
 )

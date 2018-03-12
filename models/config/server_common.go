@@ -21,7 +21,7 @@ import (
 
 	ini "github.com/vaughan0/go-ini"
 
-	"github.com/fatedier/frp/utils/util"
+	"github.com/catmonkeylee/frp/utils/util"
 )
 
 var ServerCommonCfg *ServerCommonConf

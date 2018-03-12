@@ -18,8 +18,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/fatedier/frp/utils/crypto"
-	"github.com/fatedier/frp/utils/pool"
+	"github.com/catmonkeylee/frp/utils/crypto"
+	"github.com/catmonkeylee/frp/utils/pool"
 )
 
 // Join two io.ReadWriteCloser and do some operations.
